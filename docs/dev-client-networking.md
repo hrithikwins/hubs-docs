@@ -88,7 +88,7 @@ TODO: Write how to specify partial or full update
 
 ### Persistency
 
-Hubs Client manages who the creator of `networked instanciated entities`,
+Hubs Client manages who the creator of `networked instantiated entities`,
 [which will be explained later](#createnetworkedentity), is. When the creator
 (a local or remote Hubs Client) is disconnected from a room,
 `networked entities` instanciated by it are removed from the room.
@@ -398,7 +398,7 @@ When [`createNetworkedEntity()`](#createnetworkedentity) is called,
 [`network instantiated entities`](#createnetworkedentity) are
 created synchronously. That is, any asynchronous loading that entities need
 to do to be &ldquo;fully realized&rdquo; will happen later. For example
-some accociated components or descendant entities may be set up asynchronously
+some associated components or descendant entities may be set up asynchronously
 [as explained here](./dev-client-gameplay.html#asynchronous-component-initialization).
 
 Between the time that the `network instantiated entities` are created and the 
